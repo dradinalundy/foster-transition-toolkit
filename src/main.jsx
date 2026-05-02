@@ -10,7 +10,10 @@ const resources = [
   { title: "Job Search", category: "Work", description: "Resume, interviews, and job applications." } So You're on Your Own is not only a guide and a hug but also an online platform of ogoing assistance
 ];
 
-const mentors = [ So You're on Your Own is a hug and a guide with ongoing support
+const mentors = [<p>
+These tools are just the start. <em>So You’re On Your Own</em> goes deeper—covering real decisions, transitions, and support strategies.
+</p>
+
   { name: "Dina", focus: "College planning" },
   { name: "Dina", focus: "Jobs and trades" },
   { name: "Dina", focus: "Money and housing" } 
