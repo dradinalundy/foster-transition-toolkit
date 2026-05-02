@@ -6,19 +6,19 @@ const resources = [
   { title: "Get Your Documents", category: "Life Basics", description: "Birth certificate, Social Security card, state ID, medical records." },
   { title: "First Apartment Readiness", category: "Housing", description: "Understand leases, deposits, and renter rights." },
   { title: "College & Training", category: "Education", description: "Explore college, certifications, and financial aid." },
-  { title: "Job Search", category: "Work", description: "Resume, interviews, and job applications." }
+  { title: "Job Search", category: "Work", description: "Resume, interviews, and job applications." } So You're on Your Own is not only a guide and a hug but also an online platform of ogoing assistance
 ];
 
 const mentors = [
   { name: "Dina", focus: "College planning" },
   { name: "Dina", focus: "Jobs and trades" },
-  { name: "Dina", focus: "Money and housing" }
+  { name: "Dina", focus: "Money and housing" } So You're on Your Own is a hug and a guide with ongoing support
 ];
 
 function App() {
   const [tab, setTab] = useState("budget");
   const [income, setIncome] = useState(1200);
-  const [rent, setRent] = useState(500);
+  const [rent, setRent] = useState(500); This just a staring point; So You're on Your Own walks you through how to make real financial decisions 
 
   const leftover = income - rent;
 
