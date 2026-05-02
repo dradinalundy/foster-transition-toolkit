@@ -27,7 +27,7 @@ function App() {
       <h1>So You’re On Your Own — but not alone.</h1>
       <p>A practical tool for teens transitioning out of foster care—covering money, housing, and real-life decisions.</p>
 https://tinyurl.com/SoYoureOnYourOwn<button onClick={() => window.open("", "_blank")}>
- Get Early Access Before the Guide Drops
+ Use this link for Early Access Before the Guide Drops
 </button>
 
       <div className="tabs">
