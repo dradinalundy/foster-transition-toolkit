@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="container">
       <h1>So You’re On Your Own — but not alone.</h1>
-      <p>This is a prototype for teens transitioning out of foster care.</p>
+      <p>A practical tool for teens transitioning out of foster care—covering money, housing, and real-life decisions.</p>
 
       <div className="tabs">
         <button onClick={() => setTab("budget")}>Budget</button>
