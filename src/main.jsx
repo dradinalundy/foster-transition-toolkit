@@ -10,9 +10,9 @@ const resources = [
 ];
 
 const mentors = [
-  { name: "Alicia", focus: "College planning" },
-  { name: "Marcus", focus: "Jobs and trades" },
-  { name: "Nia", focus: "Money and housing" }
+  { name: "Dina", focus: "College planning" },
+  { name: "Dina", focus: "Jobs and trades" },
+  { name: "Dina", focus: "Money and housing" }
 ];
 
 function App() {
