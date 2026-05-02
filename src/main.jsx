@@ -1,1 +1,71 @@
+import React, { useMemo, useState } from "react";
+import { createRoot } from "react-dom/client";
+import "./styles.css";
 
+const resources = [
+  { title: "Get Your Documents", category: "Life Basics", description: "Birth certificate, Social Security card, state ID, medical records." },
+  { title: "First Apartment Readiness", category: "Housing", description: "Understand leases, deposits, and renter rights." },
+  { title: "College & Training", category: "Education", description: "Explore college, certifications, and financial aid." },
+  { title: "Job Search", category: "Work", description: "Resume, interviews, and job applications." }
+];
+
+const mentors = [
+  { name: "Alicia", focus: "College planning" },
+  { name: "Marcus", focus: "Jobs and trades" },
+  { name: "Nia", focus: "Money and housing" }
+];
+
+function App() {
+  const [tab, setTab] = useState("budget");
+  const [income, setIncome] = useState(1200);
+  const [rent, setRent] = useState(500);
+
+  const leftover = income - rent;
+
+  return (
+    <div className="container">
+      <h1>So You’re On Your Own — but not alone.</h1>
+      <p>This is a prototype for teens transitioning out of foster care.</p>
+
+      <div className="tabs">
+        <button onClick={() => setTab("budget")}>Budget</button>
+        <button onClick={() => setTab("resources")}>Resources</button>
+        <button onClick={() => setTab("mentors")}>Mentors</button>
+      </div>
+
+      {tab === "budget" && (
+        <div>
+          <h2>Budget</h2>
+          <input type="number" value={income} onChange={(e) => setIncome(Number(e.target.value))} />
+          <input type="number" value={rent} onChange={(e) => setRent(Number(e.target.value))} />
+          <p>Leftover: ${leftover}</p>
+        </div>
+      )}
+
+      {tab === "resources" && (
+        <div>
+          <h2>Resources</h2>
+          {resources.map((r) => (
+            <div key={r.title}>
+              <strong>{r.title}</strong>
+              <p>{r.description}</p>
+            </div>
+          ))}
+        </div>
+      )}
+
+      {tab === "mentors" && (
+        <div>
+          <h2>Mentors</h2>
+          {mentors.map((m) => (
+            <div key={m.name}>
+              <strong>{m.name}</strong> — {m.focus}
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+createRoot(document.getElementById("root")).render(<App />);
