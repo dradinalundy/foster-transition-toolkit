@@ -26,6 +26,9 @@ function App() {
     <div className="container">
       <h1>So You’re On Your Own — but not alone.</h1>
       <p>A practical tool for teens transitioning out of foster care—covering money, housing, and real-life decisions.</p>
+https://tinyurl.com/SoYoureOnYourOwn<button onClick={() => window.open("", "_blank")}>
+ Get the Full Guide
+</button>
 
       <div className="tabs">
         <button onClick={() => setTab("budget")}>Budget</button>
