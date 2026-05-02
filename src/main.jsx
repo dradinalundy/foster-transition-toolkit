@@ -3,7 +3,10 @@ import { createRoot } from "react-dom/client";
 import "./styles.css";
 
 const resources = [
-  This is But the Beginning; the Book Has a Plethora of Resources
+  <p>
+These are key resources.So You're On Your Own explains how to actually use them and what to do when systems fail you.
+</p>
+
   { title: "Get Your Documents", category: "Life Basics", description: "Birth certificate, Social Security card, state ID, medical records." },
   { title: "First Apartment Readiness", category: "Housing", description: "Understand leases, deposits, and renter rights." },
   { title: "College & Training", category: "Education", description: "Explore college, certifications, and financial aid." },
