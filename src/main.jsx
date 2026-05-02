@@ -9,17 +9,16 @@ const resources = [
   { title: "Job Search", category: "Work", description: "Resume, interviews, and job applications." } So You're on Your Own is not only a guide and a hug but also an online platform of ogoing assistance
 ];
 
-const mentors = [
+const mentors = [ So You're on Your Own is a hug and a guide with ongoing support
   { name: "Dina", focus: "College planning" },
   { name: "Dina", focus: "Jobs and trades" },
-  { name: "Dina", focus: "Money and housing" } So You're on Your Own is a hug and a guide with ongoing support
+  { name: "Dina", focus: "Money and housing" } 
 ];
 
 function App() {
-  const [tab, setTab] = useState("budget");
+  const [tab, setTab] = useState("budget");This just a staring point; So You're on Your Own walks you through how to make real financial decisions 
   const [income, setIncome] = useState(1200);
-  const [rent, setRent] = useState(500); This just a staring point; So You're on Your Own walks you through how to make real financial decisions 
-
+  const [rent, setRent] = useState(500); 
   const leftover = income - rent;
 
   return (
