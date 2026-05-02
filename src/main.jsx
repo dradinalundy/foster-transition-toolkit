@@ -3,9 +3,16 @@ import { createRoot } from "react-dom/client";
 import "./styles.css";
 
 const resources = [
-  <p>
-These are key resources.So You're On Your Own explains how to actually use them and what to do when systems fail you.
-</p>
+{tab === "resources" && (
+ <div>
+   <h2>Resources</h2>
+
+   <p>
+     These are key resources. The full guide explains how to actually use them and what to do when systems fail you.
+   </p>
+
+   {resources.map((r) => (
+
 
   { title: "Get Your Documents", category: "Life Basics", description: "Birth certificate, Social Security card, state ID, medical records." },
   { title: "First Apartment Readiness", category: "Housing", description: "Understand leases, deposits, and renter rights." },
