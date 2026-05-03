@@ -37,7 +37,7 @@ function App() {
       {tab === "mentors" && (
         <div>
           
- <div>
+
    <h2>Mentors</h2>
    <p>Find support and guidance.</p>
 
@@ -46,10 +46,5 @@ function App() {
  </div>
 )}
 
-        </div>
-      )}
-    </div>
-  );
-}
 
 createRoot(document.getElementById("root")).render(<App />);
