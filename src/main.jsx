@@ -6,7 +6,6 @@ const resources = [
 {tab === "resources" && (
  <div>
    <h2>Resources</h2>
-<p className="note">The tools below are a preview. Early access includes the deeper guide.</p>
 
    {resources.map((r) => (
 
@@ -20,16 +19,15 @@ const resources = [
 ];
 
 const mentors = [<p>
-These tools are just the start. <em>So You’re On Your Own</em> goes deeper—covering real decisions, transitions, and support strategies.
-</p>
 
-  { name: "Dina, author of the guide", focus: "College planning" },
+
+  { name: "Dina", focus: "College planning" },
   { name: "Dina", focus: "Jobs and trades" },
   { name: "Dina", focus: "Money and housing" } 
 ];
 
 function App() {
-  const [tab, setTab] = useState("budget");This just a staring point; So You're on Your Own walks you through how to make real financial decisions 
+  const [tab, setTab] = useState("budget");
   const [income, setIncome] = useState(1200);
   const [rent, setRent] = useState(500); 
   const leftover = income - rent;
