@@ -164,8 +164,19 @@ root.render(
       margin: "60px auto 0 auto",
       padding: "20px 30px",
       boxSizing: "border-box"
-    }}
-  >
-    <App />
-  </div>
+    }}>
+<>
+<header>
+<h1>So You’re On Your Own</h1>
+<p>Everything you need to navigate life after foster care—without guessing.</p>
+<p>By Dr. Dina Lundy</p>
+<a href="https://tinyurl.com/SoYoureOnYourOwn" target="_blank">
+Get Early Access
+</a>
+</header>
+
+<App />
+</>
+</div>
 );
+
