@@ -94,4 +94,15 @@ function App() {
 }
 
 const root = createRoot(document.getElementById("root"));
-root.render(<App />);
+root.render(
+  <div
+    style={{
+      maxWidth: "1000px",
+      margin: "60px auto 0 auto",
+      padding: "20px 30px",
+      boxSizing: "border-box"
+    }}
+  >
+    <App />
+  </div>
+);
