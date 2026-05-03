@@ -23,7 +23,7 @@ const mentors = [<p>
 These tools are just the start. <em>So You’re On Your Own</em> goes deeper—covering real decisions, transitions, and support strategies.
 </p>
 
-  { name: "Dina", focus: "College planning" },
+  { name: "Dina, author of the guide", focus: "College planning" },
   { name: "Dina", focus: "Jobs and trades" },
   { name: "Dina", focus: "Money and housing" } 
 ];
