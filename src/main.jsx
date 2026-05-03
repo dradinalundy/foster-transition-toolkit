@@ -86,6 +86,32 @@ function App() {
   </a>
 
 </header>
+      <p className="subtitle">
+    Everything you need to navigate life after foster care—without guessing.
+  </p>
+
+  <p style={{ marginTop: "10px", fontWeight: "500" }}>
+    By Dr. Dina Lundy — Advocating for young adults transitioning into independence
+  </p>
+
+  <a
+    href="https://tinyurl.com/SoYoureOnYourOwn"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      display: "inline-block",
+      marginTop: "20px",
+      padding: "12px 20px",
+      backgroundColor: "#000",
+      color: "#fff",
+      borderRadius: "6px",
+      textDecoration: "none",
+      fontWeight: "600"
+    }}
+  >
+    Get Early Access
+  </a>
+</header>
 
       <nav className="tabs">
         <button onClick={() => setActiveTab("resources")}>
