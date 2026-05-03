@@ -9,6 +9,10 @@ function App() {
     <div className="container">
       <h1>So You’re On Your Own — but not alone.</h1>
       <p>This is an app for teens transitioning out of foster care.</p>
+      <a href="https://tinyurl.com/SoYoureOnYourOwn" target="_blank" rel="noreferrer">
+ <button>Get Early Access</button>
+</a>
+
 
       <div className="tabs">
         <button onClick={() => setTab("budget")}>Budget</button>
