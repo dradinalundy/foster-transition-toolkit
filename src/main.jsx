@@ -7,9 +7,7 @@ const resources = [
  <div>
    <h2>Resources</h2>
 
-   <p>
-     These are key resources. So You're on Your Own Explains How to Obtain Them and Use Them When Systems Fail You
-   </p>
+ <p className="note">The full guide goes deeper.</p>
 
    {resources.map((r) => (
 
