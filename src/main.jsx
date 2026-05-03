@@ -36,9 +36,7 @@ function App() {
 
       {tab === "mentors" && (
         <div>
-          <h2>Mentors</h2>
-          <p>Find support and guidance.</p>
-          {tab === "mentors" && (
+          
  <div>
    <h2>Mentors</h2>
    <p>Find support and guidance.</p>
