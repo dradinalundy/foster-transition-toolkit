@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import React, { useState } from "react";
 import { createRoot } from "react-dom/client";
 import "./styles.css";
 
@@ -57,6 +57,15 @@ function App() {
 
   return (
     <div className="app">
+
+      {/* ✅ BOOK TITLE + POSITIONING */}
+      <header className="header">
+        <h1>So You’re On Your Own</h1>
+        <p className="subtitle">
+          A practical guide for young adults navigating life after state care
+        </p>
+      </header>
+
       <nav className="tabs">
         <button onClick={() => setActiveTab("resources")}>
           Resources
@@ -66,7 +75,7 @@ function App() {
           Mentors
         </button>
 
-        {/* ✅ SINGLE EARLY ACCESS TAB LINKING TO GOOGLE FORM */}
+        {/* ✅ SINGLE EARLY ACCESS TAB */}
         <a
           href="https://tinyurl.com/SoYoureOnYourOwn"
           target="_blank"
