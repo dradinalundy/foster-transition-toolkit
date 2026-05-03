@@ -39,6 +39,10 @@ function App() {
 https://tinyurl.com/SoYoureOnYourOwn<button onClick={() => window.open("", "_blank")}>
  Use this link for Early Access Before the Guide Drops
 </button>
+     <p>
+The tools below are just the beginning. Get early access that includes and ongoing support.
+</p>
+
 
       <div className="tabs">
         <button onClick={() => setTab("budget")}>Budget</button>
