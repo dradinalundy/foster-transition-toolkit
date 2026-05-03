@@ -8,10 +8,12 @@ const resources = [
    <h2>Resources</h2>
 
    <p>
-     These are key resources. The full guide explains how to actually use them and what to do when systems fail you.
+     These are key resources. So You're on Your Own Explains How to Obtain Them and Use Them When Systems Fail You
    </p>
 
    {resources.map((r) => (
+
+
 
 
   { title: "Get Your Documents", category: "Life Basics", description: "Birth certificate, Social Security card, state ID, medical records." },
