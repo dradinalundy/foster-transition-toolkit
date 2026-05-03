@@ -90,7 +90,7 @@ function App() {
             </p>
 
             <a
-              href="YOUR_GOOGLE_FORM_LINK_HERE"
+              href="https://tinyurl.com/SoYoureOnYourOwn"
               target="_blank"
               rel="noreferrer"
             >
