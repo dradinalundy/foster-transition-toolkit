@@ -97,7 +97,7 @@ function App() {
         {/* ✅ YOUR BOOK COVER */}
         <div style={styles.coverWrap}>
        <img
- src="/book-cover.png"
+ src="book-cover.png"
  alt="Book Cover"
 />
 
