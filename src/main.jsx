@@ -113,6 +113,22 @@ function App() {
   </a>
 </header>
 
+      <header>
+  <h1>So You’re On Your Own</h1>
+
+  <p>
+    Everything you need to navigate life after foster care—without guessing.
+  </p>
+
+  <p>
+    By Dr. Dina Lundy
+  </p>
+
+  <a href="https://tinyurl.com/SoYoureOnYourOwn" target="_blank">
+    Get Early Access
+  </a>
+</header>
+
       <nav className="tabs">
         <button onClick={() => setActiveTab("resources")}>
           Resources
