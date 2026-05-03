@@ -96,13 +96,11 @@ function App() {
 
         {/* ✅ YOUR BOOK COVER */}
         <div style={styles.coverWrap}>
-          <img
-            src="https://files.oaiusercontent.com/file-00000000110071fdb17837a3bd6e52ee"
-            alt="So You’re On Your Own book cover"
-            style={styles.cover}
-          />
-        </div>
-      </header>
+       <img
+ src="/book-cover.png"
+ alt="Book Cover"
+/>
+
 
       <nav style={styles.tabs}>
         <button
