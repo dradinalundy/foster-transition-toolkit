@@ -6,8 +6,7 @@ const resources = [
 {tab === "resources" && (
  <div>
    <h2>Resources</h2>
-
- <p className="note">The full guide goes deeper.</p>
+<p className="note">The tools below are a preview. Early access includes the deeper guide.</p>
 
    {resources.map((r) => (
 
