@@ -38,6 +38,16 @@ function App() {
         <div>
           <h2>Mentors</h2>
           <p>Find support and guidance.</p>
+          {tab === "mentors" && (
+ <div>
+   <h2>Mentors</h2>
+   <p>Find support and guidance.</p>
+
+   <p><strong>Dr. Lundy</strong> — Author</p>
+
+ </div>
+)}
+
         </div>
       )}
     </div>
